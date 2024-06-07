@@ -12,8 +12,8 @@ const LoginPage: React.FC = () => {
 
   return (
     <AuthLayout>
-      <h1 className="text-3xl text-center text-black font-bold">CUL Transport Backoffice Dashboard</h1>
-      <p className="text-md text-center text-gray-600 mt-6">Manage routes, bookings, tickets, payments, and accounts</p>
+      <h1 className="text-2xl text-center text-black font-bold">CUL Transport Backoffice Dashboard</h1>
+      <p className="text-sm text-center text-gray-600 mt-6">Manage routes, bookings, tickets, payments, and accounts</p>
 
       <form className="flex flex-col gap-4 mt-10" onSubmit={handleLogin}>
         <div className="w-full flex flex-col gap-2">

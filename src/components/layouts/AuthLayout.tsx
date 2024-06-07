@@ -7,9 +7,11 @@ type Props = {
 
 export const AuthLayout: React.FC<Props> = (props) => {
   return (
-    <div className="h-screen w-screen flex flex-col gap-8 items-center bg-white relative pt-[6%]">
-      <img src={BRAND_LOGO} alt="brand-logo.jpeg" className="w-[100px] h-[100px]" />
-      <div className="w-[450px]" style={{ zoom: 0.85 }}>
+    <div className="h-screen w-screen flex flex-col gap-8 items-center bg-slate-950 relative pt-[8%]">
+      <div className="w-[450px] bg-white rounded-xl p-8" style={{ zoom: 0.85 }}>
+        <div className="flex justify-center mb-8">
+          <img src={BRAND_LOGO} alt="brand-logo.jpeg" className="w-[100px] h-[100px]" />
+        </div>
         {props.children}
       </div>
 
