@@ -12,12 +12,12 @@ const LoginPage: React.FC = () => {
 
   return (
     <AuthLayout>
-      <h1 className="text-3xl text-center text-white font-medium">CUL Transport Backoffice Dashboard</h1>
-      <p className="text-md text-center text-gray-400 mt-6">Manage routes, bookings, tickets, payments, and accounts</p>
+      <h1 className="text-3xl text-center text-black font-bold">CUL Transport Backoffice Dashboard</h1>
+      <p className="text-md text-center text-gray-600 mt-6">Manage routes, bookings, tickets, payments, and accounts</p>
 
       <form className="flex flex-col gap-4 mt-10" onSubmit={handleLogin}>
         <div className="w-full flex flex-col gap-2">
-          <p className="text-sm text-gray-200 pl-2">E-mail address</p>
+          <p className="text-sm text-gray-500 pl-2">E-mail address</p>
           <input
             type="text"
             className="w-full text-sm rounded-md border border-gray-300 py-3"
@@ -27,7 +27,7 @@ const LoginPage: React.FC = () => {
           />
         </div>
         <div className="w-full flex flex-col gap-2">
-          <p className="text-sm text-gray-200 pl-2">Password</p>
+          <p className="text-sm text-gray-500 pl-2">Password</p>
           <input
             type="text"
             className="w-full text-sm rounded-md border border-gray-300 py-3"
